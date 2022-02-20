@@ -7,14 +7,21 @@ const reverseBtn = document.querySelector('.btn__reverse');
 const stripBlankBtn = document.querySelector('.btn__strip_blank');
 const addNumbersBtn = document.querySelector('.btn__add_numbers');
 const shuffleBtn = document.querySelector('.btn__shuffle');
-
+let toggle = true;
 // Event Handlers
 const clearBtnHandler = () => {
   textArea.value = '';
 };
 
 const capitalizeBtnHandler = () => {
-  textArea.value = textArea.value.toUpperCase();
+          if(toggle){     
+         textArea.value = textArea.value.toUpperCase();
+         toggle= false;
+        }else{
+          
+          textArea.value = textArea.value.toLowerCase();
+          toggle= true;
+        }
 };
 
 const sortBtnHandler = () => {
