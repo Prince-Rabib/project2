@@ -18,21 +18,24 @@
 }
 
 .btn_green_style {
+  font-family: Verdana;
   background-color: green;
   border: 5px solid black;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.7rem;
 }
 
 .btn_yellow_style {
+  font-family: Geneva;
   background-color: yellow;
   border: 5px solid black;
   color: red;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 1.7rem;
 }
 .btn_blue_style {
+  font-family: Tahoma;
   background-color: dodgerblue;
   border: 5px solid red;
   color: white;
@@ -40,10 +43,11 @@
   font-size: 1.7rem;
 }
 .btn_red_style {
+  font-family: sans-serif;
   background-color: tomato;
   border: 5px solid dodgerblue;
   color: white;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.7rem;
 }
 
